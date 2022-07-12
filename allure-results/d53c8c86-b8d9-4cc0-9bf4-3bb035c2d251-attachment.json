@@ -1,0 +1,1 @@
+{"name":"Request","url":"https://reqres.in/api/users/2","method":"POST","body":"{\n    \"job\": \"leader\",\n    \"customername\": \"morpheus\"\n}","headers":{"Accept":"*/*","Content-Type":"application/json"},"cookies":{},"requestParameters":{},"queryParameters":{},"formParameters":{},"pathParameters":{},"multiParts":[]}

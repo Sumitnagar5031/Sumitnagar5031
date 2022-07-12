@@ -1,0 +1,1 @@
+{"name":"Request","url":"https://run.mocky.io/v3/e2ba1326-1863-40da-9666-ff70661b2111?hello\u003dhello\u0026query\u003dquery\u0026form\u003dform","method":"GET","headers":{"Accept":"*/*","Content-Type":"application/json"},"cookies":{},"requestParameters":{"hello":"hello"},"queryParameters":{"query":"query"},"formParameters":{"form":"form"},"pathParameters":{},"multiParts":[]}
