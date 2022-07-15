@@ -34,7 +34,7 @@ public class Utils {
 	public String getPropertiesFiles(String key) throws IOException {
 
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream(".\\configrationFolder\\config.properties");
+		FileInputStream fis = new FileInputStream("./configrationFolder/config.properties");
 		prop.load(fis);
 
 		return prop.getProperty(key);
