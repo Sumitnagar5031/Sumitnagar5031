@@ -13,7 +13,9 @@ import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import tech.grasshopper.filter.ExtentRestAssuredFilter;
-
+/**
+ * @author sumit
+ */
 public class Utils {
 
 	public static RequestSpecification specificationRequest;
@@ -34,6 +36,7 @@ public class Utils {
 	public String getPropertiesFiles(String key) throws IOException {
 
 		Properties prop = new Properties();
+		
 		FileInputStream fis = new FileInputStream("./configrationFolder/config.properties");
 		prop.load(fis);
 
